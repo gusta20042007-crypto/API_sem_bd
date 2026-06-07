@@ -54,3 +54,24 @@ O servidor estará rodando em `http://localhost:3000`.
 ---
 
 ### Listar usuários
+
+**Resposta:** `200 OK` com a lista de todos os usuários cadastrados.
+
+---
+
+## ⚠️ Observação
+
+Os dados são armazenados em um **array em memória** — ao reiniciar o servidor, todos os usuários são perdidos. Para persistência de dados, considere integrar um banco de dados como MongoDB, PostgreSQL ou SQLite.
+
+---
+
+## 📁 Estrutura do Projeto
+
+.
+└── index.js   # Arquivo principal da aplicação
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
